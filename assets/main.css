@@ -1,0 +1,126 @@
+body {
+  height: 150vh;
+
+  background:#C5D2D0;
+  margin: 10%;
+}
+.background {
+  background-color: #E3C080;
+  position: fixed;
+top: 0;
+  bottom: 0;
+right: 0;
+  height: 250vh;
+  width: 15%;
+  border-left: 6px solid black;
+  display: block;
+  text-decoration: none;
+
+}
+
+
+.text-1 {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  padding-right: 30%;
+}
+
+.text-2 {
+    position: relative;
+  top: 350px;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+ padding-right: 30%;
+}
+
+.text-3 {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  padding-right: 30%;
+}
+
+.text-4 {
+    position: relative;
+  top: 350px;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+ padding-right: 30%;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+
+  body {
+  height: 150vh;
+width: 100vh;
+  background:#C5D2D0;
+
+}
+.text-1 {
+  position: relative;
+  top: 50px;
+  left: 500px;
+  color: white;
+  font-family: helvetica;
+  font-size: 30px;
+
+
+}
+.text-2 {
+    position: relative;
+  top: 450px;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+ font-size: 30px;
+
+
+}
+.text-3 {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+.text-4 {
+    position: relative;
+  top: 350px;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+
+}
+
+
+}
