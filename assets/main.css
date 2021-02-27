@@ -1,11 +1,38 @@
 body {
-  height: 150vh;
+  height: 100vh;
 
-  background:#C5D2D0;
+  background:#E1CBC9;
   margin: 10%;
 }
-.background {
-  background-color: #E3C080;
+
+.text-1 {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+  padding-right: 30%;
+}
+
+.text-2 {
+    position: relative;
+  top: 350px;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+ padding-right: 30%;
+}
+
+
+
+ .background {
+  background-color: #C5D2D0;
   position: fixed;
 top: 0;
   bottom: 0;
@@ -18,73 +45,18 @@ right: 0;
 
 }
 
-
-.text-1 {
-  position: relative;
-  top: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 20px;
-  padding-right: 30%;
-}
-
-.text-2 {
-    position: relative;
-  top: 350px;
-display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 20px;
- padding-right: 30%;
-}
-
-.text-3 {
-  position: relative;
-  top: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 20px;
-  padding-right: 30%;
-}
-
-.text-4 {
-    position: relative;
-  top: 350px;
-display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 20px;
- padding-right: 30%;
-}
-
-
-
 @media only screen and (min-width: 800px) {
-
-  body {
-  height: 150vh;
-width: 100vh;
-  background:#C5D2D0;
-
-}
+  
 .text-1 {
   position: relative;
   top: 50px;
-  left: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   color: white;
   font-family: helvetica;
   font-size: 30px;
-
+  padding-right: 15%;
 
 }
 .text-2 {
@@ -96,31 +68,10 @@ display: flex;
   color: white;
   font-family: helvetica;
  font-size: 30px;
-
-
-}
-.text-3 {
-  position: relative;
-  top: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 20px;
-}
-
-.text-4 {
-    position: relative;
-  top: 350px;
-display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 20px;
+  padding-right: 15%;
 
 }
+
 
 
 }
