@@ -1,7 +1,6 @@
 body {
   height: 100vh;
-
-  background:#E1CBC9;
+  background:#DAB348;
   margin: 10%;
 }
 
@@ -12,31 +11,34 @@ body {
   justify-content: center;
   text-align: center;
   color: white;
-  font-family: helvetica;
+  font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 18px;
   padding-right: 30%;
 }
 
 .text-2 {
-    position: relative;
+  position: relative;
   top: 350px;
-display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
   text-align: center;
   color: white;
-  font-family: helvetica;
+  font-family: linotype-sabon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 18px;
- padding-right: 30%;
+  padding-right: 30%;
 }
 
 
-
- .background {
-  background-color: #C5D2D0;
+.background {
+  background-color: #4F5631;
   position: fixed;
-top: 0;
+  top: 0;
   bottom: 0;
-right: 0;
+  right: 0;
   height: 250vh;
   width: 15%;
   border-left: 6px solid black;
@@ -46,32 +48,48 @@ right: 0;
 }
 
 @media only screen and (min-width: 800px) {
-  
-.text-1 {
-  position: relative;
-  top: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 30px;
-  padding-right: 15%;
-
-}
-.text-2 {
+  body {
+    height: 100vh;
+    background:#DAB348;
+    margin: 10%;
+  }
+  .text-1 {
     position: relative;
-  top: 450px;
-display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
- font-size: 30px;
-  padding-right: 15%;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-right: 15%;
+  }
+  .text-2 {
+    position: relative;
+    top: 450px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-right: 15%;
+  }
+  .background {
+    background-color: #4F5631;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 250vh;
+    width: 15%;
+    border-left: 6px solid black;
+    display: block;
+    text-decoration: none;
 
-}
-
-
-
+  }
 }
